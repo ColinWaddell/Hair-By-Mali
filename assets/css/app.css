@@ -2,7 +2,12 @@
    Base
    ========================================================================== */
 
-body { }
+body { 
+  background: url('/satya/assets/img/background.jpg') right bottom fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
 
 
 
