@@ -21,11 +21,14 @@
 // Accent colors
 // -------------------------
 @blue:                  #049cdb;
+@blueLight:             #92B2C8;
+@blueLighter:           #E7EEF3;
 @blueDark:              #0064cd;
 @green:                 #46a546;
 @red:                   #9d261d;
 @yellow:                #ffc40d;
 @orange:                #f89406;
+@redorange:             #A61717;
 @pink:                  #c3325f;
 @purple:                #7a43b6;
 
@@ -38,7 +41,7 @@
 
 // Links
 // -------------------------
-@linkColor:             #08c;
+@linkColor:             @blueLight;
 @linkColorHover:        darken(@linkColor, 15%);
 
 
@@ -47,15 +50,16 @@
 @sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
 @serifFontFamily:       Georgia, "Times New Roman", Times, serif;
 @monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
+@navbarFontFamily:      'Paprika',"Helvetica Neue", Helvetica, Arial, sans-serif;
 
-@baseFontSize:          14px;
+@baseFontSize:          18px;
 @baseFontFamily:        @sansFontFamily;
-@baseLineHeight:        20px;
+@baseLineHeight:        24px;
 @altFontFamily:         @serifFontFamily;
 
-@headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
+@headingsFontFamily:    @sansFontFamily; // empty to use BS default, @baseFontFamily
 @headingsFontWeight:    bold;    // instead of browser default, bold
-@headingsColor:         inherit; // empty to use BS default, @textColor
+@headingsColor:         #363F40; // empty to use BS default, @textColor
 
 
 // Component sizing
@@ -180,19 +184,21 @@
 @navbarCollapseWidth:             979px;
 @navbarCollapseDesktopWidth:      @navbarCollapseWidth + 1;
 
-@navbarHeight:                    40px;
-@navbarBackgroundHighlight:       #ffffff;
-@navbarBackground:                darken(@navbarBackgroundHighlight, 5%);
-@navbarBorder:                    darken(@navbarBackground, 12%);
+@navbarHeight:                    90px;
+@navbarBackgroundHighlight:       @grayDark;
+@navbarBackground:                @grayDark;
+@navbarBorder:                    @grayDarker;
 
-@navbarText:                      #777;
-@navbarLinkColor:                 #777;
-@navbarLinkColorHover:            @grayDark;
-@navbarLinkColorActive:           @gray;
+@navbarText:                      @white;
+@navbarTextFontSize:              30px;
+@navbarLinkColor:                 @white;
+@navbarLinkColorHover:            @blueLighter;
+@navbarLinkColorActive:           @white;
 @navbarLinkBackgroundHover:       transparent;
-@navbarLinkBackgroundActive:      darken(@navbarBackground, 5%);
+@navbarLinkBackgroundActive:      darken(@navbarBackground, 10%);
 
 @navbarBrandColor:                @navbarLinkColor;
+@navbarBrandFontSize:             40px;
 
 // Inverted navbar
 @navbarInverseBackground:                #111111;

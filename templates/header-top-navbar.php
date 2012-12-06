@@ -19,3 +19,16 @@
     </div>
   </div>
 </header>
+
+<div class="jumbotron">
+  <div class="container">
+  		<div class="row">
+			<div class="span5">
+				<div class="input-append">
+				  <input class="span2" id="appendedInputButton" type="text" placeholder="Your Email">
+				  <button class="btn" type="button">Join the mailing list</button>
+				</div>
+			</div>
+		</div>
+  </div>
+</div>
