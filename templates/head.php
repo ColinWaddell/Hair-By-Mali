@@ -13,7 +13,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
 
-	<link href='http://fonts.googleapis.com/css?family=Paprika' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
 
   <?php wp_head(); ?>
 

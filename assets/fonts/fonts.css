@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: 'Acorn';
+  src: url('Acorn.eot');
+}
+
+@font-face {
+  font-family: 'Acorn';
+  src: url('Acorn.woff') format('woff'),
+  url('Acorn.svg#Acorn') format('svg');
+}
+
+@font-face {
+  font-family: 'Acorn-Bold';
+  src: url('AcornBold.eot');
+}
+
+@font-face {
+  font-family: 'Acorn-Bold';
+  src: url('AcornBold.woff') format('woff'),
+  url('AcornBold.svg#Acorn-Bold') format('svg');
+}

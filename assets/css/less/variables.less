@@ -25,6 +25,7 @@
 @blueLighter:           #E7EEF3;
 @blueDark:              #0064cd;
 @green:                 #46a546;
+@greenDark:             #3C610F;
 @red:                   #9d261d;
 @yellow:                #ffc40d;
 @orange:                #f89406;
@@ -41,7 +42,7 @@
 
 // Links
 // -------------------------
-@linkColor:             @blueLight;
+@linkColor:             @greenDark;
 @linkColorHover:        darken(@linkColor, 15%);
 
 
@@ -50,15 +51,15 @@
 @sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
 @serifFontFamily:       Georgia, "Times New Roman", Times, serif;
 @monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
-@navbarFontFamily:      'Paprika',"Helvetica Neue", Helvetica, Arial, sans-serif;
+@navbarFontFamily:      "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 @baseFontSize:          18px;
 @baseFontFamily:        @sansFontFamily;
 @baseLineHeight:        24px;
 @altFontFamily:         @serifFontFamily;
 
-@headingsFontFamily:    @sansFontFamily; // empty to use BS default, @baseFontFamily
-@headingsFontWeight:    bold;    // instead of browser default, bold
+@headingsFontFamily:    @navbarFontFamily; // empty to use BS default, @baseFontFamily
+@headingsFontWeight:    normal;    // instead of browser default, bold
 @headingsColor:         #363F40; // empty to use BS default, @textColor
 
 

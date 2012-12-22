@@ -49,7 +49,7 @@ function roots_main_class() {
   if (roots_display_sidebar()) {
     $class = 'span8';
   } else {
-    $class = 'span9';
+    $class = 'offset1 span10';
   }
 
   return $class;
