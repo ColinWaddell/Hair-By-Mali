@@ -3,23 +3,34 @@
    ========================================================================== */
 
 body { 
-  background: url('/satya/assets/img/background.jpg') right bottom fixed no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
+  background: url('/satya/assets/img/satya_jean.png') fixed;
 }
 
 /* ==========================================================================
    Navbar Mods
    ========================================================================== */
 
+.navbar{
+  /*background: url('../img/satya-background-top-border.png') bottom white;*/
+  /*background-repeat: repeat-x;*/
+}
 
 .navbar .brand span.sub-brand{
   font-size:15px;
   color: #555;
-  display: block;
+  /*display: block;*/
   height:30px;
 }
+
+.mailinglist{
+  padding: 4px 0px 0px;
+}
+
+.jumbotron{
+  background: url('../img/satya-nav-border.png') top repeat-x;
+}
+
+
 
 /* =============================================================================
    Header
@@ -28,7 +39,10 @@ body {
 #banner { }
 
 /* Fixed Topbar Navigation */
-body.top-navbar { padding-top: 90px; }
+body.top-navbar {
+  padding-top: 100px; 
+}
+
 body.admin-bar .navbar-fixed-top { top: 28px; }
 
 /* =============================================================================
@@ -49,7 +63,6 @@ body.page-parent div.page-child-title h3{color:rgb(121,	136,	149);}
 
 
 
-
 /* ==========================================================================
    Content
    ========================================================================== */
@@ -66,21 +79,29 @@ body.page-parent div.page-child-title h3{color:rgb(121,	136,	149);}
    ========================================================================== */
 
 #main { 
-    background: rgba(255,255,255,0.7);  
-    outline: 15px solid rgba(255,255,255,0.7);
+    /*background: rgba(255,255,255,0.7);  */
+/*    outline: 15px solid rgba(255,255,255,0.7);*/
 }
 
 
+.entry-content{
+  padding: 14px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
 
 /* ==========================================================================
    Sidebar
    ========================================================================== */
 
 #sidebar { 
-    background: rgba(255,255,255,0.7);  
-    outline: 15px solid rgba(255,255,255,0.7);
-    padding-top: 20px;
+  padding-top:35px;
 }
+
 
 
 
@@ -128,7 +149,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     padding-top: 0;
   }
   
-  #main { outline-width: 10px; }
+  #main { /*outline-width: 10px; */ }
   #sidebar { outline-width: 10px; }
   
   #sub-banner {margin-top:-20px;}

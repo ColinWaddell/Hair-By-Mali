@@ -24,28 +24,34 @@
 		
 		<div class="row">
 			<?php if (($index)%2 && !empty($img_src)) { ?>
-				<div class="entry span6">
+				<div class="entry span7">
+                                  <div class="entry-content">
 					<?php echo $content; ?>
+                                  </div>
 				</div>
-				<div class="entry span4">
+				<div class="entry span5">
 						<img class="img-polaroid" src="
 						<?php
 							echo ($img_src[0]);		
 						?>" />
 				</div>
 			<?php } elseif(!empty($img_src)) { ?>
-				<div class="entry span4">
+				<div class="entry span5">
 						<img class="img-polaroid" src="
 						<?php
 							echo ($img_src[0]);		
 						?>" />
 				</div>				
-				<div class="entry span6">
+				<div class="entry span7">
+                                  <div class="entry-content">
 					<?php echo $content; ?>
+                                  </div>
 				</div>
 			<?php } else { ?>
-				<div class="entry span10">
+				<div class="entry span12">
+                                  <div class="entry-content">
 					<?php echo $content; ?>
+                                  </div>
 				</div>
 			<?php } //endif; ?>
 		</div>
