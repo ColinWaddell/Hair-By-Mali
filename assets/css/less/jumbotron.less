@@ -7,14 +7,14 @@
 ------------------------- */
 .jumbotron {
   position: relative;
-  padding: 15px 0;
+  /*padding: 15px 0;*/
   color: #fff;
   text-align: center;
 /*  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);*/
   background: transparent; /* Old browsers */
 /*    #gradient > .horizontal(@blueLighter, #FFFFFF);*/
   /*background: url('../../img/satya_jean_ripped.png') top repeat-x;*/
-            
+ z-index: -100;           
 }
 .jumbotron h1 {
   font-size: 80px;
@@ -36,12 +36,15 @@
   padding-left:8px;
 }
 
+
 .jumbotron div.input-append{
   display:inline;
 }
 
 .jumbotron div.jumbo-social-media img {
-  height:48px;
+  height:64px;
+  margin-top:-25px;
+  vertical-align: top;
 }
 
 /* Link styles (used on .masthead-links as well) */

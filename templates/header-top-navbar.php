@@ -7,46 +7,45 @@
         <span class="icon-bar"></span>
       </a>
             <div class="row">
-              <div class="span5">
-              <a class="brand" href="<?php echo home_url(); ?>/">
+              <div class="span4">
+                <a class="brand" href="<?php echo home_url(); ?>/">
                   <?php bloginfo('name'); ?>
-                  <span class="sub-brand"></span>
+                </a>
+              </div>
+              <div class="span3 sub-brand">
+                <h2>Better Living</h2>
+                <h2>Optimal Well Being</h2>
+              </div>
+              <div class="span5 pull-right nav-widget">
+                <div class="input-append mailinglist">
+                  <input class="span2" id="appendedInputButton" type="text" placeholder="Your Email">
+                  <button class="btn" type="button">Join the mailing list</button>
                 </div>
-              </a>
-              <div class="span2 pull-right">
-                  <a href="#">Donate!</a>
+                <a class="donate-button btn btn-inverse" href="#">Donate!</a>
               </div>
             </div>
 
-      <div class="row">
-        <nav id="nav-main" class="nav-collapse" role="navigation">
-        <div class="span7">
-          <?php
-            if (has_nav_menu('primary_navigation')) :
-              wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav'));
-            endif;
-          ?>
-        </div>
-        <div class="span4 pull-right">
-          <div class="input-append mailinglist">
-            <input class="span2" id="appendedInputButton" type="text" placeholder="Your Email">
-            <button class="btn" type="button">Join the mailing list</button>
-          </div>
-
-        </div>
-        </nav>
-      </div>
     </div>
   </div>
 
   <div class="jumbotron">
     <div class="container">
-                  <div class="row">                      <div class="jumbo-social-media pull-right span3">
-                            <img src="/satya/assets/img/round_facebook.png">
-                            <img src="/satya/assets/img/round_twitter.png">
-                            <img src="/satya/assets/img/round_email.png">
-                      </div>
-                  </div>
+      <div class="row">                      
+        <div class="jumbo-social-media pull-right span3">
+              <a href="#"><img src="/satya/assets/img/round_facebook.png"></a>
+              <a href="#"><img src="/satya/assets/img/round_twitter.png"></a>
+              <a href="#"><img src="/satya/assets/img/round_email.png"></a>
+        </div>
+        <nav id="nav-main" class="nav-collapse" role="navigation">
+          <div class="span7">
+            <?php
+              if (has_nav_menu('primary_navigation')) :
+                wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav'));
+              endif;
+            ?>
+          </div>
+        </nav>
+      </div>
     </div>
   </div>
 

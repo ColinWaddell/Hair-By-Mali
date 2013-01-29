@@ -538,7 +538,7 @@ h4,
 h5,
 h6 {
   margin: 12px 0;
-  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "SimpleKindOfGirl", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 24px;
   color: #363f40;
@@ -592,9 +592,9 @@ h4 small {
 .page-header {
   padding-bottom: 11px;
   margin: 24px 0 36px;
-  /*border-bottom: 1px solid @black;*/
+  border-bottom: 1px solid #000000;
+  /*background: url('../../img/satya-line-border.png') bottom no-repeat;*/
 
-  background: url('../../img/satya-line-border.png') bottom no-repeat;
 }
 ul,
 ol {
@@ -3497,7 +3497,7 @@ input[type="submit"].btn.btn-mini {
   overflow: visible;
   margin-bottom: 24px;
   color: #222222;
-  font-family: "Pompiere", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "SimpleKindOfGirl", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*#gradient > .vertical(@navbarBackgroundHighlight, @navbarBackground);*/
 
   /*background: @navbarBackground;*/
@@ -3511,6 +3511,9 @@ input[type="submit"].btn.btn-mini {
   padding-left: 20px;
   padding-right: 20px;
   background: url('/satya/assets/img/satya_jean_nav.png') fixed;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   *zoom: 1;
 }
 .navbar-inner:before,
@@ -3536,10 +3539,10 @@ input[type="submit"].btn.btn-mini {
 
   /*margin-left: 3px; // negative indent to left-align the text down the page*/
 
-  padding-top: 15px;
-  font-size: 38px;
+  padding-top: 20px;
+  font-size: 48px;
   font-weight: 200;
-  color: #222222;
+  color: #efefef;
   /*text-shadow: 0 1px 0 @navbarBackgroundHighlight;*/
 
 }
@@ -4973,7 +4976,8 @@ a.badge:hover {
 ------------------------- */
 .jumbotron {
   position: relative;
-  padding: 15px 0;
+  /*padding: 15px 0;*/
+
   color: #fff;
   text-align: center;
   /*  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);*/
@@ -4985,6 +4989,7 @@ a.badge:hover {
 
   /*background: url('../../img/satya_jean_ripped.png') top repeat-x;*/
 
+  z-index: -100;
 }
 .jumbotron h1 {
   font-size: 80px;
@@ -5008,7 +5013,9 @@ a.badge:hover {
   display: inline;
 }
 .jumbotron div.jumbo-social-media img {
-  height: 48px;
+  height: 64px;
+  margin-top: -25px;
+  vertical-align: top;
 }
 /* Link styles (used on .masthead-links as well) */
 .jumbotron a {

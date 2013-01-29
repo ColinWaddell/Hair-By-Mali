@@ -1,27 +1,5 @@
 
 @font-face {
-  font-family: 'Acorn';
-  src: url('Acorn.eot');
-}
-
-@font-face {
-  font-family: 'Acorn';
-  src: url('Acorn.woff') format('woff'),
-  url('Acorn.svg#Acorn') format('svg');
-}
-
-@font-face {
-  font-family: 'Acorn-Bold';
-  src: url('AcornBold.eot');
-}
-
-@font-face {
-  font-family: 'Acorn-Bold';
-  src: url('AcornBold.woff') format('woff'),
-  url('AcornBold.svg#Acorn-Bold') format('svg');
-}
-
-@font-face {
   font-family: 'Pompiere';
   font-style: normal;
   font-weight: 400;
@@ -51,4 +29,29 @@
   font-style: italic;
   font-weight: 600;
   src: local('Muli Italic'), local('Muli-Italic'), url(http://themes.googleusercontent.com/static/fonts/muli/v4/DSOyST5zmfghBgRIogdupevvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Delius';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Delius-Regular'), url(http://themes.googleusercontent.com/static/fonts/delius/v3/brLBPBAUw-PpA7n74Uo__uvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+}
+@font-face {
+  font-family: 'Satisfy';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Satisfy'), url(http://themes.googleusercontent.com/static/fonts/satisfy/v3/tmRzDlQs5wZmOn9mIuLa-QLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'SimpleKindOfGirl';
+  src: url('SimpleKindOfGirl.eot');
+}
+
+@font-face {
+  font-family: 'SimpleKindOfGirl';
+  src: url('SimpleKindOfGirl.woff') format('woff'),
+       url('SimpleKindOfGirl.svg#SimpleKindOfGirl') format('svg');
 }

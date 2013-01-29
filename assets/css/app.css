@@ -15,22 +15,51 @@ body {
   /*background-repeat: repeat-x;*/
 }
 
-.navbar .brand span.sub-brand{
-  font-size:15px;
-  color: #555;
+.sub-brand {
+    margin-left: -15px;
+}
+
+.navbar .sub-brand h2{
+  font-size:25px;
+  color: #f3f3f3;
   /*display: block;*/
-  height:30px;
+  padding: 0;
+  margin: 0;
+  line-height:32px;
+  text-transform: none;
+}
+
+#menu-primary-navigation{
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background:#eee;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); 
+  margin-left:-15px;
 }
 
 .mailinglist{
   padding: 4px 0px 0px;
+  display:inline;
 }
 
 .jumbotron{
-  background: url('../img/satya-nav-border.png') top repeat-x;
+  /*background: url('../img/satya-nav-border.png') top repeat-x;*/
 }
 
+.nav-widget{
+   padding-top: 25px; 
+}
 
+.donate-button{
+  margin-top:0!important;
+  margin-left:10px;
+}
 
 /* =============================================================================
    Header
@@ -40,7 +69,7 @@ body {
 
 /* Fixed Topbar Navigation */
 body.top-navbar {
-  padding-top: 100px; 
+  padding-top: 110px; 
 }
 
 body.admin-bar .navbar-fixed-top { top: 28px; }
@@ -71,8 +100,6 @@ body.page-parent div.page-child-title h3{color:rgb(121,	136,	149);}
 /*  .box-shadow(inset 0 3px 8px rgba(0,0,0,.125));*/
   padding-top: 15px;
 }
-
-
 
 /* ==========================================================================
    Primary Content
