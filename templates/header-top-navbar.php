@@ -27,26 +27,20 @@
 
     </div>
   </div>
-
-  <div class="jumbotron">
-    <div class="container">
-      <div class="row">                      
-        <div class="jumbo-social-media pull-right span3">
+  <div class="menu-area">
+        <nav id="nav-main" class="nav-collapse" role="navigation">
+            <?php
+                if (has_nav_menu('primary_navigation')) :
+                  wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav menu-holder'));
+                endif;
+            ?>
+            <div class="social-media">
               <a href="#"><img src="/satya/assets/img/round_facebook.png"></a>
               <a href="#"><img src="/satya/assets/img/round_twitter.png"></a>
               <a href="#"><img src="/satya/assets/img/round_email.png"></a>
-        </div>
-        <nav id="nav-main" class="nav-collapse" role="navigation">
-          <div class="span7">
-            <?php
-              if (has_nav_menu('primary_navigation')) :
-                wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav'));
-              endif;
-            ?>
+            </div>
           </div>
-        </nav>
-      </div>
-    </div>
-  </div>
 
+        </nav>
+  </div>
 </header>

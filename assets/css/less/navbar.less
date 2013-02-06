@@ -225,7 +225,7 @@
 .navbar .nav {
   position: relative;
   left: 0;
-  display: block;
+  /*display: block;*/
   float: left;
   margin: 0 10px 0 0;
 }
@@ -242,10 +242,12 @@
   font-size: @navbarTextFontSize;
   float: none;
   // Vertically center the text given @navbarHeight
-  padding: ((@navbarHeight - @baseLineHeight) / 2) 15px ((@navbarHeight - @baseLineHeight) / 2);
+  /*padding: ((@navbarHeight - @baseLineHeight) / 2) 15px ((@navbarHeight - @baseLineHeight) / 2);*/
+  padding: 10px 14px;
   color: @navbarLinkColor;
   text-decoration: none;
   /*text-shadow: 0 1px 0 @navbarBackgroundHighlight;*/
+display: inline;
 }
 .navbar .nav .dropdown-toggle .caret {
   margin-top: 8px;

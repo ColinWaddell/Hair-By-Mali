@@ -4,12 +4,12 @@
 $(document).ready(function ()
 {
 
-  $('.jumbo-social-media img').hover(
+  $('.social-media img').hover(
     function(){
-      $(this).stop().animate({marginTop: 2}, 200);
+      $(this).stop().animate({marginTop: -5}, 200);
     },
     function(){
-      $(this).stop().animate({marginTop: -25}, 200);
+      $(this).stop().animate({marginTop: -30}, 200);
     });
 
 });

@@ -3557,7 +3557,7 @@ input[type="submit"].btn.btn-mini {
   color: #222222;
 }
 .navbar-link:hover {
-  color: #e7eef3;
+  color: #333333;
 }
 .navbar .divider-vertical {
   height: 45px;
@@ -3685,7 +3685,8 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav {
   position: relative;
   left: 0;
-  display: block;
+  /*display: block;*/
+
   float: left;
   margin: 0 10px 0 0;
 }
@@ -3697,13 +3698,16 @@ input[type="submit"].btn.btn-mini {
   float: left;
 }
 .navbar .nav > li > a {
-  font-size: 26px;
+  font-size: 20px;
   float: none;
-  padding: 10.5px 15px 10.5px;
+  /*padding: ((@navbarHeight - @baseLineHeight) / 2) 15px ((@navbarHeight - @baseLineHeight) / 2);*/
+
+  padding: 10px 14px;
   color: #222222;
   text-decoration: none;
   /*text-shadow: 0 1px 0 @navbarBackgroundHighlight;*/
 
+  display: inline;
 }
 .navbar .nav .dropdown-toggle .caret {
   margin-top: 8px;
@@ -3711,7 +3715,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
   background-color: transparent;
-  color: #e7eef3;
+  color: #333333;
   text-decoration: none;
 }
 .navbar .nav > .active > a,
@@ -4989,7 +4993,7 @@ a.badge:hover {
 
   /*background: url('../../img/satya_jean_ripped.png') top repeat-x;*/
 
-  z-index: -100;
+  z-index: -99;
 }
 .jumbotron h1 {
   font-size: 80px;
@@ -5008,13 +5012,14 @@ a.badge:hover {
 .jumbotron div.jumbo-social-media {
   display: inline;
   padding-left: 8px;
+  z-index: -100;
 }
 .jumbotron div.input-append {
   display: inline;
 }
 .jumbotron div.jumbo-social-media img {
   height: 64px;
-  margin-top: -25px;
+  margin-top: -30px;
   vertical-align: top;
 }
 /* Link styles (used on .masthead-links as well) */

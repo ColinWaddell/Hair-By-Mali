@@ -1,5 +1,5 @@
 DEBUG=True
-LESS_FILES= bootstrap.less
+LESS_FILES=bootstrap.less
 CSS_FILES=$(LESS_FILES:.less=.css)
 
 ifeq ($(DEBUG),True)
@@ -8,7 +8,8 @@ else
 	LESSC=lessc -x
 endif
 
-less: $(CSS_FILES)
+all: lessc
 
-%.css: %.less
-	$(LESSC) $< > $@
+lessc: 
+	$(LESSC) $(LESS_FILES) > $(CSS_FILES)
+

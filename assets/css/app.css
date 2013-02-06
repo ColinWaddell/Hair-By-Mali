@@ -29,7 +29,7 @@ body {
   text-transform: none;
 }
 
-#menu-primary-navigation{
+.menu-holder{
   -webkit-border-bottom-right-radius: 10px;
   -webkit-border-bottom-left-radius: 10px;
   -moz-border-radius-bottomright: 10px;
@@ -40,9 +40,33 @@ body {
   -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); 
-  margin-left:-15px;
+  position: relative;
+  z-index: -99;
 }
 
+.menu-arrow{
+  color:black;
+  padding-left:5px;
+}
+
+.menu-area{
+  position: relative;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+div.social-media{
+  z-index: -100; 
+  position: fixed;
+  right:0px;
+  width: 240px;
+}
+
+div.social-media img {
+  margin-top:-25px;
+  vertical-align: top;
+  padding-left:10px;
+}
 .mailinglist{
   padding: 4px 0px 0px;
   display:inline;
