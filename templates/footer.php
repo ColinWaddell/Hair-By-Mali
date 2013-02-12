@@ -1,6 +1,21 @@
 <footer id="content-info" class="container" role="contentinfo">
-  <?php dynamic_sidebar('sidebar-footer'); ?>
-  <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
+<div class="row">
+  <div class="span3 entry-content" id="testimonial">
+    <?php
+    $args = array( 'numberposts' => 1, 'orderby' => 'rand', 'category' => '15' );
+    $rand_posts = get_posts( $args );
+
+    foreach( $rand_posts as $post ) : setup_postdata($post); ?>
+     <p class="tesimonial-quote"><?php the_content(); ?></p>
+     <p class="tesimonial-name pull-right"><strong>-<?php the_title(); ?></strong></p>
+    <?php endforeach; ?>
+  </div>
+</div>
+
+  <div class="row">
+    <?php dynamic_sidebar('sidebar-footer'); ?>
+    <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
+  </div>
 </footer>
 
 <?php if (GOOGLE_ANALYTICS_ID) : ?>

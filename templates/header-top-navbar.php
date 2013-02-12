@@ -19,7 +19,7 @@
               <div class="span5 pull-right nav-widget">
                 <div class="input-append mailinglist">
                   <input class="span2" id="appendedInputButton" type="text" placeholder="Your Email">
-                  <button class="btn" type="button">Join the mailing list</button>
+                  <button class="btn" type="button">Join the e-list</button>
                 </div>
                 <a class="donate-button btn btn-inverse" href="#">Donate!</a>
               </div>
