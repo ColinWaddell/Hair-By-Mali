@@ -214,6 +214,12 @@ body.page-parent div.page-child-title h3{color:rgb(121,	136,	149);}
   text-align:left;
   z-index:-50;
   padding: 25px 25px 0;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 
 label {
@@ -232,9 +238,7 @@ label {
    Footer
    ========================================================================== */
 
-#testimonial {
-  display:table;
-  width:350px;
+.testimonial {
 }
 
 #content-info { 

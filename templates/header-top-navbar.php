@@ -17,29 +17,33 @@
                 <h2>Optimal Well Being</h2>
               </div>
               <div class="span5 pull-right nav-widget">
-                <div class="input-append mailinglist">
-                  <input class="span2" id="appendedInputButton" type="text" placeholder="Your Email">
-                  <button class="btn" type="button">Join the e-list</button>
-                </div>
-                <a class="donate-button btn btn-inverse" href="#" id="donate">Donate!</a>
-<div class="messagepop pop span4">
-  <p><a class="close-donate close" href="#">Hide</a></p>
+				  <div id="ml-newsletterform-container">
+					<form action="" onsubmit="return subscribeMailList()" id="ml-newsletterform">
+						<div class="input-append mailinglist">
+							<?php echo '<img id="ml-img" src="'.WP_PLUGIN_URL.'/mail-list/img/ml-ajax.gif">'; ?>
+							<input class="span2" id="ml-email" type="text" placeholder="Your Email">
+							<button class="btn" type="submit" id="ml-button">Join the e-list</button>
+						</div>
+					</form>
+					<a class="donate-button btn btn-inverse pull-right" href="#" id="donate">Donate!</a>
+				 </div>
+                
+				<div class="messagepop pop span4">
+				  <p><a class="close-donate close" href="#">Hide</a></p>
 
-  <h4>Message about donating to Satya</h4>
-  <hr />
-    <div class="control-group row">
-      <label class="control-label span2">I'd like to donate</label>
-      <div class="controls">
-        <div class="input-prepend input-append">
-          <span class="add-on">£</span>
-          <input class="span1" id="appendedPrependedInput" name="donate-amount" type="text" placeholder="5">
-          <span class="add-on" id="donate-button">Donate!</span>
-        </div>
-      </div>
-    </div>
-</div>
-
-
+				  <h4>Message about donating to Satya</h4>
+				  <hr />
+					<div class="control-group row">
+					  <label class="control-label span2">I'd like to donate</label>
+					  <div class="controls">
+						<div class="input-prepend input-append">
+						  <span class="add-on">£</span>
+						  <input class="span1" id="appendedPrependedInput" name="donate-amount" type="text" placeholder="5">
+						  <span class="add-on" id="donate-button">Donate!</span>
+						</div>
+					  </div>
+					</div>
+				</div>
               </div>
             </div>
 

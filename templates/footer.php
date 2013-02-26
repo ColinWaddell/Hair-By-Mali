@@ -1,21 +1,23 @@
 <footer id="content-info" class="container" role="contentinfo">
 <div class="row">
-  <div class="span3 entry-content" id="testimonial">
     <?php
-    $args = array( 'numberposts' => 1, 'orderby' => 'rand', 'category' => '15' );
+	$cat = get_cat_ID( 'testimonials' );
+    $args = array( 'numberposts' => 4, 'orderby' => 'rand', 'category' => $cat );
     $rand_posts = get_posts( $args );
 
     foreach( $rand_posts as $post ) : setup_postdata($post); ?>
-     <p class="tesimonial-quote"><?php the_content(); ?></p>
-     <p class="tesimonial-name pull-right"><strong>-<?php the_title(); ?></strong></p>
+		<div class="span3 entry-content testimonial pull-right">
+			 <p class="tesimonial-quote"><?php the_content(); ?></p>
+			 <p class="tesimonial-name pull-right"><strong>-<?php the_title(); ?></strong></p>
+		</div>
     <?php endforeach; ?>
-  </div>
 </div>
 
   <div class="row">
     <?php dynamic_sidebar('sidebar-footer'); ?>
     <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
   </div>
+  
 </footer>
 
 <?php if (GOOGLE_ANALYTICS_ID) : ?>
