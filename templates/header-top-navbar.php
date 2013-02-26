@@ -21,7 +21,25 @@
                   <input class="span2" id="appendedInputButton" type="text" placeholder="Your Email">
                   <button class="btn" type="button">Join the e-list</button>
                 </div>
-                <a class="donate-button btn btn-inverse" href="#">Donate!</a>
+                <a class="donate-button btn btn-inverse" href="#" id="donate">Donate!</a>
+<div class="messagepop pop span4">
+  <p><a class="close-donate close" href="#">Hide</a></p>
+
+  <h4>Message about donating to Satya</h4>
+  <hr />
+    <div class="control-group row">
+      <label class="control-label span2">I'd like to donate</label>
+      <div class="controls">
+        <div class="input-prepend input-append">
+          <span class="add-on">£</span>
+          <input class="span1" id="appendedPrependedInput" name="donate-amount" type="text" placeholder="5">
+          <span class="add-on" id="donate-button">Donate!</span>
+        </div>
+      </div>
+    </div>
+</div>
+
+
               </div>
             </div>
 
