@@ -74,6 +74,17 @@ a.brand-subtext{
   border-bottom: 1px solid #d88f28;
 }
 
+.header-contact{
+  text-align: right;
+  color: #999;
+  font-size:14px;
+  margin: 10px 20px 0;
+}
+
+.header-contact a{
+  color: #eee;
+}
+
 /* ==========================================================================
    Content
    ========================================================================== */
