@@ -135,6 +135,11 @@ a.brand-subtext{
   margin: 0 auto;
 }
 
+.home-widget-area{
+  border-top: 1px solid #3A2E1D;
+  margin-top: 10px;
+}
+
 .home-widget{
   text-align: center;
 }

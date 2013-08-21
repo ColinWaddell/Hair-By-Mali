@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row home-widget-area">
   <div class="col-sm-4 home-widget-holder">
     <?php dynamic_sidebar('home-area-1'); ?>
   </div>
