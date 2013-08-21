@@ -1,7 +1,5 @@
 <aside class="header-contact hidden-xs">
-  <p>
-    Call or Text: 07888222333 | Email: <a href="#">contact@hairbymali.co.uk</a>
-  </p>
+  <p>Call or Text: 07888222333 | Email: <a href="#">contact@hairbymali.co.uk</a></p>
 </aside>
 
 <header class="banner navbar navbar-inverse navbar-static-top center" role="banner">
