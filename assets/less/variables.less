@@ -24,11 +24,13 @@
 @brand-danger:          #d9534f;
 @brand-info:            #5bc0de;
 
+@gold:                  #d88f28;
+
 // Scaffolding
 // -------------------------
 
-@body-bg:               #fff;
-@text-color:            @gray-dark;
+@body-bg:               @gray-darker;
+@text-color:            @gray-lighter;
 
 // Links
 // -------------------------
@@ -39,20 +41,20 @@
 // Typography
 // -------------------------
 
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-sans-serif:  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
 @font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
-@font-size-base:          14px;
+@font-size-base:          16px;
 @font-size-large:         ceil(@font-size-base * 1.25); // ~18px
 @font-size-small:         ceil(@font-size-base * 0.85); // ~12px
 
 @line-height-base:        1.428571429; // 20/14
 @line-height-computed:    floor(@font-size-base * @line-height-base); // ~20px
 
-@headings-font-family:    @font-family-base;
-@headings-font-weight:    500;
+@headings-font-family:    'Open Sans Condensed', @font-family-sans-serif;;
+@headings-font-weight:    300;
 @headings-line-height:    1.1;
 
 // Iconography
@@ -236,7 +238,7 @@
 // -------------------------
 
 // Basics of a navbar
-@navbar-height:                    50px;
+@navbar-height:                    75px;
 @navbar-margin-bottom:             @line-height-computed;
 @navbar-default-color:             #777;
 @navbar-default-bg:                #f8f8f8;
@@ -270,7 +272,7 @@
 // Reset inverted navbar basics
 @navbar-inverse-color:                      @gray-light;
 @navbar-inverse-bg:                         #222;
-@navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
+@navbar-inverse-border:                     @gold;
 
 // Inverted navbar links
 @navbar-inverse-link-color:                 @gray-light;
@@ -595,7 +597,7 @@
 @headings-small-color:        @gray-light;
 @blockquote-small-color:      @gray-light;
 @blockquote-border-color:     @gray-lighter;
-@page-header-border-color:    @gray-lighter;
+@page-header-border-color:    @gold;
 
 // Miscellaneous
 // -------------------------
@@ -617,4 +619,4 @@
 @container-desktop:           ((940px + @grid-gutter-width));
 
 // Large screen / wide desktop
-@container-lg-desktop:        ((1140px + @grid-gutter-width));
+@container-lg-desktop:        ((940px + @grid-gutter-width));

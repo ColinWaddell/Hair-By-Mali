@@ -1,8 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:300italic,400italic,600italic,300,600,400);
+
 /* ==========================================================================
    Base
    ========================================================================== */
 
-body { }
+body { 
+  font-weight: 300;
+}
 
 
 
@@ -12,7 +16,63 @@ body { }
 
 .banner { }
 
+.center.navbar .nav,
+.center.navbar .nav > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
 
+.center .navbar-inner {
+  text-align:center;
+}
+
+.center .dropdown-menu {
+  text-align: left;
+}
+
+.site-title{
+  margin-bottom: 20px;
+}
+
+.header-widget{
+  position: absolute;
+  right: 0;
+}
+
+.header-widget p{
+  width: 225px;
+  margin-bottom: 0;
+}
+
+a.brand, a.brand-subtext,
+a.brand:hover, a.brand-subtext:hover{
+  display: block;
+  text-align: center;
+  color: #eee;
+  text-decoration: none;
+}
+
+a.brand{
+  /*font-size: 42px;*/
+  letter-spacing: 4px;
+  line-height: 55px;
+}
+
+a.brand-subtext{
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+
+.navbar-static-top{
+  border-bottom: 0;
+}
+
+.navbar-inverse .navbar-collapse{
+  border-bottom: 1px solid #d88f28;
+}
 
 /* ==========================================================================
    Content
@@ -20,7 +80,79 @@ body { }
 
 .content { }
 
+/* =============================================================================
+   Homepage
+   ========================================================================== */
 
+.home-carousel{
+  border: 1px solid #d88f28;
+  background: #000;
+  margin-bottom: 30px;
+}
+
+
+.home-carousel p{
+  font-style: italic;
+  font-size: 22px;
+  padding: 20px;
+  position: relative;
+  top: -50%;
+}
+
+/* Horrible table hack to get vertically aligned center text */
+.v-center-outer {
+  display: table;
+  width: 100%;
+  height: 440px;
+}
+
+.v-center-inner {
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+}
+
+.carousel-control .icon-prev, 
+.carousel-control .icon-next, 
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right{
+  top: 89%;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img {
+  margin: 0 auto;
+}
+
+.home-widget{
+  text-align: center;
+}
+
+.home-widget:first-child .textwidget{
+  min-height: 130px;
+}
+
+.home-widget .scissors{
+  color: #eee;
+}
+
+.home-widget-holder{
+  border-right: 1px solid #d88f28;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.home-widget-holder:last-of-type{
+  border-right: 0;
+}
+
+.scissors:after {
+  content: url('../img/scissors.png') transparent no-repeat;
+  top: 3px;
+  position: relative;
+  margin-left: 5px;
+}
 
 /* ==========================================================================
    Primary Content
@@ -72,7 +204,6 @@ body { }
 figure.alignnone { margin-left: 0; margin-right: 0; }
 
 
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -82,3 +213,13 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width: 992px) { }
 
 @media (min-width: 1200px) { }
+
+@media (max-width: 768px) { 
+  .home-widget:first-child .textwidget{
+    min-height: 0;
+  }
+
+  .home-widget-holder{
+    margin-bottom: 50px;
+  }
+}

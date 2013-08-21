@@ -22,6 +22,33 @@ function roots_widgets_init() {
     'after_title'   => '</h3>',
   ));
 
+  register_sidebar(array(
+    'name'          => __('Home Area 1', 'roots'),
+    'id'            => 'home-area-1',
+    'before_widget' => '<section class="home-widget %1$s %2$s"><div class="widget-inner">',
+    'after_widget'  => '</div></section>',
+    'before_title'  => '<h2>',
+    'after_title'   => '</h2>',
+  ));
+
+  register_sidebar(array(
+    'name'          => __('Home Area 2', 'roots'),
+    'id'            => 'home-area-2',
+    'before_widget' => '<section class="home-widget %1$s %2$s"><div class="widget-inner">',
+    'after_widget'  => '</div></section>',
+    'before_title'  => '<h2>',
+    'after_title'   => '</h2>',
+  ));
+
+  register_sidebar(array(
+    'name'          => __('Home Area 3', 'roots'),
+    'id'            => 'home-area-3',
+    'before_widget' => '<section class="home-widget %1$s %2$s"><div class="widget-inner">',
+    'after_widget'  => '</div></section>',
+    'before_title'  => '<h2>',
+    'after_title'   => '</h2>',
+  ));
+
   // Widgets
   register_widget('Roots_Vcard_Widget');
 }
