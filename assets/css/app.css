@@ -174,7 +174,9 @@ a.brand-subtext{
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
 
-
+.page-header{
+  text-align: center;
+}
 
 /* ==========================================================================
    Sidebar
