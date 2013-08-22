@@ -209,7 +209,9 @@ a.brand-subtext{
 .hentry .entry-content { }
 .hentry footer { }
 
-
+article.hentry{
+  border-bottom: 1px solid #473924;
+}
 
 /* ==========================================================================
    Footer
