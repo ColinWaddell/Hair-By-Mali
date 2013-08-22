@@ -99,6 +99,7 @@ a.brand-subtext{
   border: 1px solid #d88f28;
   background: #000;
   margin-bottom: 30px;
+  overflow-x: hidden;
 }
 
 
