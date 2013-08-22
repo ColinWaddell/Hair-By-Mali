@@ -100,6 +100,7 @@ a.brand-subtext{
   background: #000;
   margin-bottom: 30px;
   overflow-x: hidden;
+  background: url('../img/binding_dark.png');
 }
 
 
@@ -181,7 +182,11 @@ a.brand-subtext{
 .gallery-row { padding: 15px 0; }
 
 .page-header{
-  text-align: center;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-top: 1px solid #d88f28;
 }
 
 /* ==========================================================================
