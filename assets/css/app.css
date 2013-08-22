@@ -190,7 +190,7 @@ h1.entry-title{
   border-top: 1px solid #d88f28;
 }
 
-body.contact h1.entry-title{
+body.contact .page-header{
   text-align: center;
 }
 
