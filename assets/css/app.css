@@ -193,7 +193,9 @@ a.brand-subtext{
    Sidebar
    ========================================================================== */
 
-.sidebar { }
+.sidebar { 
+  border-top: 1px solid #d88f28;
+}
 
 
 
