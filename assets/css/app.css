@@ -274,8 +274,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     margin-bottom: 50px;
   }
 
-  .navbar-inverse .navbar-nav > li > a{
-    font-size: 14px;
+  .center.navbar .nav, 
+  .center.navbar .nav > li,
+  .navbar-inverse .navbar-nav > li {
+    display: block; 
   }
 
 }
