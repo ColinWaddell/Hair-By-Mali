@@ -181,7 +181,8 @@ a.brand-subtext{
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
 
-.page-header{
+.page-header,
+h1.entry-title{
   text-align: left;
   padding: 0;
   margin: 0;
@@ -189,10 +190,15 @@ a.brand-subtext{
   border-top: 1px solid #d88f28;
 }
 
+h1.entry-title{
+  padding: 20px 0;
+}
+
 /* ==========================================================================
    Sidebar
    ========================================================================== */
 
+#respond,
 .sidebar { 
   border-top: 1px solid #d88f28;
 }
