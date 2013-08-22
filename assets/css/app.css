@@ -130,6 +130,7 @@ a.brand-subtext{
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .glyphicon-chevron-right{
   /*display: none;*/
+  top: 89%;
 }
 
 .carousel-inner > .item > img, 
