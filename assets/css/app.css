@@ -271,4 +271,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   .home-widget-holder{
     margin-bottom: 50px;
   }
+
+  .nav > li {
+    position: relative;
+    display: block;
+  }
 }
