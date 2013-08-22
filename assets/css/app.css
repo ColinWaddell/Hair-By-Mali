@@ -129,7 +129,7 @@ a.brand-subtext{
 .carousel-control .icon-next, 
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .glyphicon-chevron-right{
-  display: none;
+  /*display: none;*/
 }
 
 .carousel-inner > .item > img, 
