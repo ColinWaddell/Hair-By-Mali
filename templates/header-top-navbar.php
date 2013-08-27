@@ -1,5 +1,5 @@
 <aside class="header-contact hidden-xs">
-  <p>Call or Text: 07888222333 | Email: <a href="mailto:contact@hairbymali.co.uk">contact@hairbymali.co.uk</a></p>
+  <p>Call or Text: 07933158239 | Email: <a href="mailto:contact@hairbymali.co.uk">contact@hairbymali.co.uk</a></p>
 </aside>
 
 <header class="banner navbar navbar-inverse navbar-static-top center" role="banner">
