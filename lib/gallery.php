@@ -118,3 +118,6 @@ function roots_attachment_link_class($html) {
   return $html;
 }
 add_filter('wp_get_attachment_link', 'roots_attachment_link_class', 10, 1);
+
+
+
