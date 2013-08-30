@@ -325,4 +325,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     height: 0;
   }
 
+  .testimonials-list > div{
+    border: 0;
+    margin-bottom: 40px;
+  }
+
 }
