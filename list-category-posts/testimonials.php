@@ -8,7 +8,7 @@ $lcp_display_output .= "<div class='row testimonials-list'>";
 
 foreach ($this->catlist->get_categories_posts() as $single):
 
-  if (++$lcp_row_count==3) {
+  if (++$lcp_row_count==4) {
     $lcp_row_count = 0;
     $lcp_display_output .= "</div><div class='row testimonials-list newline'>";
   }
