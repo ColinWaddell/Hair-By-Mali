@@ -18,3 +18,14 @@ require_once locate_template('/lib/relative-urls.php');   // Root relative URLs
 require_once locate_template('/lib/widgets.php');         // Sidebars and widgets
 require_once locate_template('/lib/scripts.php');         // Scripts and stylesheets
 require_once locate_template('/lib/custom.php');          // Custom functions
+
+
+
+function remove_testimonials($query){
+  if ( $query->is_home() && $query->is_main_query() ) {
+    $query->set( 'cat', '-'.get_cat_ID( 'testimonials' ) );
+  }
+}
+
+add_action( 'pre_get_posts', 'remove_testimonials' ); 
+

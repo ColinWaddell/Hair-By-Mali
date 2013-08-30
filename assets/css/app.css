@@ -242,6 +242,27 @@ article.hentry{
 .content-info { padding-top: 20px }
 
 
+/* ==========================================================================
+   Testimonials
+   ========================================================================== */
+.testimonials > div:nth-child(2){
+  border-left: 1px solid #D88F28;
+  border-right: 1px solid #D88F28;
+}
+
+.testimonials{
+  border-top: 0;
+}
+
+.testimonials.newline{
+  border-top: 1px solid #D88F28;
+  margin-top: 10px;
+}
+
+.testimonials h4{
+  text-align: right;
+}
+
 
 /* ==========================================================================
    WordPress Generated Classes
