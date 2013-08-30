@@ -33,8 +33,11 @@ body {
   text-align: left;
 }
 
-.site-title{
-  margin-bottom: 20px;
+.site-title {
+  background: url(../img/nav_bg.png);
+  margin-top: -22px;
+  background-position: center;
+  padding-bottom: 8px;
 }
 
 .header-widget{
@@ -84,6 +87,8 @@ a.brand-subtext{
 .header-contact a{
   color: #eee;
 }
+
+
 
 /* ==========================================================================
    Content
@@ -245,21 +250,21 @@ article.hentry{
 /* ==========================================================================
    Testimonials
    ========================================================================== */
-.testimonials > div:nth-child(2){
+.testimonials-list > div:nth-child(2){
   border-left: 1px solid #D88F28;
   border-right: 1px solid #D88F28;
 }
 
-.testimonials{
+.testimonials-list{
   border-top: 0;
 }
 
-.testimonials.newline{
+.testimonials-list.newline{
   border-top: 1px solid #D88F28;
   margin-top: 10px;
 }
 
-.testimonials h4{
+.testimonials-list h4{
   text-align: right;
 }
 

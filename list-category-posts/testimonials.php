@@ -4,7 +4,7 @@ $lcp_display_output = '';
 
 $lcp_row_count = 0;
 
-$lcp_display_output .= "<div class='row testimonials'>";
+$lcp_display_output .= "<div class='row testimonials-list'>";
 
 foreach ($this->catlist->get_categories_posts() as $single):
   //Start a List Item for each post:
@@ -21,7 +21,7 @@ foreach ($this->catlist->get_categories_posts() as $single):
         
   if (++$lcp_row_count==3) {
     $lcp_row_count = 0;
-    $lcp_display_output .= "</div><div class='row testimonials newline'>";
+    $lcp_display_output .= "</div><div class='row testimonials-list newline'>";
   }
 
 endforeach;
