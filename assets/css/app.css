@@ -330,4 +330,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     margin-bottom: 40px;
   }
 
+  .testimonials-list > div:nth-child(2){
+    border: 0;
+  }
 }
