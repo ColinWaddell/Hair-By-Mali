@@ -153,7 +153,7 @@ a.brand-subtext{
 }
 
 .home-widget:first-child .textwidget{
-  min-height: 130px;
+  min-height: 160px;
 }
 
 .home-widget .scissors{
@@ -176,6 +176,20 @@ a.brand-subtext{
   top: 3px;
   position: relative;
   margin-left: 5px;
+}
+
+.twitterlink{
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  background: url(../img/twitter.png);
+}
+
+.facebooklink{
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  background: url(../img/facebook.png);
 }
 
 /* ==========================================================================
