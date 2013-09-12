@@ -252,10 +252,12 @@ article.hentry{
   padding-bottom: 20px;
 }
 
+body.single .page-header,
 body.blog .page-header{
   border-top: 0;
 }
 
+body.single .site-title,
 body.blog .site-title{
   border-bottom: 1px solid #d88f28;
 }
