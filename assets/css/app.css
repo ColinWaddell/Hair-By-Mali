@@ -38,6 +38,7 @@ body {
   margin-top: -22px;
   background-position: center;
   padding-bottom: 8px;
+  border-bottom: 1px solid #d88f28;
 }
 
 .header-widget{
@@ -256,10 +257,7 @@ body.blog .page-header{
   border-top: 0;
 }
 
-body.single .site-title,
-body.blog .site-title{
-  border-bottom: 1px solid #d88f28;
-}
+
 
 
 /* ==========================================================================
