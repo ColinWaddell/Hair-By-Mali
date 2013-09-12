@@ -223,7 +223,6 @@ h1.entry-title{
    ========================================================================== */
 
 .sidebar { 
-  border-top: 1px solid #d88f28;
 }
 
 
@@ -258,7 +257,7 @@ body.blog .page-header{
 }
 
 body.blog .site-title{
-  border-bottom: 1px solid #473924;
+  border-bottom: 1px solid #d88f28;
 }
 
 
