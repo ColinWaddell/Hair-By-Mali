@@ -253,6 +253,14 @@ article.hentry{
   padding-bottom: 20px;
 }
 
+body.blog .page-header{
+  border-top: 0;
+}
+
+body.blog .site-title{
+  border-bottom: 1px solid #473924;
+}
+
 
 /* ==========================================================================
    Footer
