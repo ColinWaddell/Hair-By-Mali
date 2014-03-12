@@ -11,7 +11,7 @@
 
       </div>  
       <div class="col-sm-6">
-        <?php echo do_shortcode('[image-carousel showcaption="false" twbs="3" interval="1200" category="homepage"]'); ?>
+        <?php echo do_shortcode('[image-carousel showcaption="false" twbs="3" interval="5000" category="homepage"]'); ?>
       </div>  
     </div>
   </figure>
